@@ -8,7 +8,7 @@ pygame.mixer.set_num_channels(20)  # Allow multiple sounds to play simultaneousl
 # Set up display
 WIDTH, HEIGHT = 800, 400
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Enhanced Virtual Piano")
+pygame.display.set_caption("PyKeyboard")
 
 WHITE, BLACK, GRAY, BLUE = (255, 255, 255), (0, 0, 0), (169, 169, 169), (0, 100, 255)
 
